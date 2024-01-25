@@ -357,6 +357,10 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
+    ©2024 <a href="https://xiaotupo.com" target="_blank">xiaotupo.com</a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/xiaotupo-com" target="_blank">Github</a>
+    <i class="iconfont icon-love"></i>
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>'
@@ -820,22 +824,17 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
-  name: "Fluid"
+  name: "xiaotupo.com"
   intro: "这是我的个人博客"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
     - {
         class: "iconfont icon-github-fill",
-        link: "https://github.com",
+        link: "https://github.com/xiaotupo-com",
         tip: "GitHub",
       }
-    - {
-        class: "iconfont icon-douban-fill",
-        link: "https://douban.com",
-        tip: "豆瓣",
-      }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/avatar.png" }
 
 #---------------------------
 # 404页
@@ -869,16 +868,16 @@ links:
         avatar: "https://blog.guorongfei.com/img/avatar.jpg",
       }
     - {
-        title: "Fluid Docs",
-        intro: "主题使用指南",
-        link: "https://hexo.fluid-dev.com/docs/",
-        avatar: "/img/favicon.png",
+        title: "Electronic Projects, Embedded News and Online Community - Electronics-Lab",
+        intro: "电子项目，嵌入式新闻和在线社区-电子实验室",
+        link: "https://www.electronics-lab.com/",
+        avatar: "https://www.electronics-lab.com/apple-touch-icon.png",
       }
     - {
-        title: "Fluid Repo",
-        intro: "主题 GitHub 仓库",
-        link: "https://github.com/fluid-dev/hexo-theme-fluid",
-        avatar: "/img/favicon.png",
+        title: "Power-Boards",
+        intro: "这个 Github 仓库保含很多电源设计，包括PCB和原理图等，是开源的，可以拿来使用和参考。",
+        link: "https://github.com/xiaotupo-com/Power-Boards",
+        avatar: "/img/GitHub_logo.png",
       }
 
   # 当成员头像加载失败时，替换为指定图片
