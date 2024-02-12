@@ -6,11 +6,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/avatar.png
+favicon: /img/logo.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/avatar.png
+apple_touch_icon: /img/logo.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -395,12 +395,12 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: /img/pexels-rastislav-durica-10512495.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 100
+  banner_img_height: 75
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -414,7 +414,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "欢迎来到我的博客！"
+    text: "Hello,World!"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -466,7 +466,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: /img/pexels-markus-winkler-9861809.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -820,10 +820,10 @@ giscus:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/pexels-ian-turnell-709552.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  avatar: /img/avatar.png
+  avatar: /img/logo.png
   name: "xiaotupo.com"
   intro: "这是我的个人博客"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
@@ -834,7 +834,7 @@ about:
         link: "https://github.com/xiaotupo-com",
         tip: "GitHub",
       }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/avatar.png" }
+    - { class: "iconfont icon-wechat-fill", qrcode: "/img/logo.png" }
 
 #---------------------------
 # 404页
@@ -855,7 +855,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/1.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
@@ -879,10 +879,40 @@ links:
         link: "https://github.com/xiaotupo-com/Power-Boards",
         avatar: "/img/GitHub_logo.png",
       }
+    - {
+        title: "posh-git",
+        intro: "A PowerShell environment for Git",
+        link: "https://github.com/dahlbyk/posh-git",
+        avatar: "/img/GitHub_logo.png",
+      }
+    - {
+        title: "FPGA论坛 SOC论坛 ARM论坛 RISCV论坛 IC论坛 ",
+        intro: "FPGA  SOC  IC 芯片调试开发分享社区",
+        link: "https://chipdebug.com/",
+        avatar: "/img/chipdebug.png",
+      }
+    - {
+        title: "科学文库",
+        intro: "科学文库是以高质量学术专著和教材为主要内容、以全学科知识服务为特色的数据库平台，收录众多获奖作品、各学科领域经典图书、知名专家著作、系列重点丛书等高质量专业知识内容，是优秀科学家的群体智慧宝库，曾获中国出版界最高奖——“中国出版政府奖”。",
+        link: "https://book.sciencereading.cn",
+        avatar: "/img/科学文库.png",
+      }
+    - {
+        title: "在线免费文字转语音 - TTSMaker",
+        intro: "TTSMaker是一个免费的文本转语音工具，也是一个在线文本阅读器，可以将文本转换成语音，它支持100多种语言和多种语音风格，强大的神经网络使语音听起来更加自然，您可以在线试听，或者按mp3、wav格式下载音频文件。",
+        link: "https://ttsmaker.com/zh-cn",
+        avatar: "/img/ttsmaker.png",
+      }
+    - {
+        title: "Pexels - 免费素材图片",
+        intro: "免费素材图片和视频，可以在任何地方使用。✓ 高质量 ✓ 100% 免费✓ 无需注明归属",
+        link: "https://www.pexels.com/zh-cn/",
+        avatar: "/img/pexels.png",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
-  onerror_avatar: /img/avatar.png
+  onerror_avatar: /img/logo.png
 
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
