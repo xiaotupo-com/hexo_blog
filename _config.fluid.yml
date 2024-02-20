@@ -909,6 +909,12 @@ links:
         link: "https://www.pexels.com/zh-cn/",
         avatar: "/img/pexels.png",
       }
+    - {
+        title: "FreeCAD 教學影片",
+        intro: "南臺科技大學電子系「3D 建模及快速成型實務」課程錄影授課老師：李博明",
+        link: "https://www.youtube.com/playlist?list=PLdrYbn8q6soMfeaGRczvvLAdBYIruMCdZ",
+        avatar: "/img/freecad教学影片.jpg",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
