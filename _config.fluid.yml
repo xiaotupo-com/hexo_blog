@@ -915,6 +915,12 @@ links:
         link: "https://www.youtube.com/playlist?list=PLdrYbn8q6soMfeaGRczvvLAdBYIruMCdZ",
         avatar: "/img/freecad教学影片.jpg",
       }
+    - {
+        title: "嘉立创FA",
+        intro: "隶属深圳嘉立创科技集团股份有限公司旗下品牌，致力于打造工厂自动化零部件一站式采购服务，产品涵盖机械常用零部件、直线运动零部件、传动零部件、紧固零件、电子电气产品、工控及电机驱动产品、气缸及气动配件产品等；可免费下载2D图纸，及3D模型，嘉立创机械零部件商城目标提升自动化设备供给效率，降低设备厂商综合采购成本，为机械设备行业带来推动和改变。嘉立创机械零部件商城拥有上万m²仓储及零部件加工基地，大企业背书，保障品质，现货库存，当天发货。是集机械零部件销售、CNC非标定制加工、3D打印（金属和塑胶）于一体的领先的设备标准件和非标件一站式服务厂商。",
+        link: "https://www.jlcfa.com",
+        avatar: "/img/jlcfa.png",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
