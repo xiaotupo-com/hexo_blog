@@ -4,6 +4,7 @@ date: 2024-01-13 12:22:06
 tags: [Vim]
 categories: 编程
 description:
+cover:
 ---
 
 我的配置文件如下：

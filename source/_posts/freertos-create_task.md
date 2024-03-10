@@ -4,6 +4,7 @@ date: 2024-02-22 22:34:13
 tags: [FreeRTOS]
 categories: 嵌入式
 description:
+cover:
 ---
 
 ```c

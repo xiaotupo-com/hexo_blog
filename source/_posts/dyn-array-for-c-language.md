@@ -4,6 +4,7 @@ date: 2024-02-05 18:57:21
 tags:
 categories:
 description:
+cover:
 ---
 
 ```c

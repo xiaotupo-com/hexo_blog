@@ -4,6 +4,7 @@ date: 2024-02-04 22:21:54
 tags: [LTspice]
 categories: 电路设计
 description: LTspice 菜单ui翻译。
+cover:
 ---
 
 ## 编辑仿真命令对话框

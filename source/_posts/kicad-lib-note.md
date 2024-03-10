@@ -1,0 +1,85 @@
+---
+title: KiCAD 官方库笔记
+date: 2024-03-04 18:15:55
+tags: [KiCad]
+categories: 电路设计
+description:
+cover:
+---
+
+
+- Symbol 一些标志丝印，如：`CE/ESD/FCC/KiCad/OSHW` 等`Logo`。
+- TerminalBlock_Altech P5.0mm 45度端子
+  - ![altech_AK300_1](/img/post_img/altech_AK300_1.png)
+- TerminalBlock_Phoenix 5.08 绿色端子
+  - ![TerminalBlock_Phoenix](/img/post_img/TerminalBlock_Phoenix.png)
+- TestPoint 测试点
+  - ![test_point](/img/post_img/test_point.png)
+- Valve 电子管
+- Varistor 压敏电阻插件
+  - ![Varistor](/img/post_img/Varistor.png)
+- Sensor 传感器
+- Rotary_Encoder 旋转编码器，EC11等
+- FR_Shielding 屏蔽罩
+- FR_Module 常见射频模块，如：ESP32模块等
+- Resistor_THT 插件电阻
+- Resistor_SMD 贴片电阻
+- Relay_THT 插件继电器
+- Relay_SMD 贴片继电器
+- Potentiometer_THT 插件电位器
+- Potentiometer_SMD 贴片电位器
+- Package_TO_SOT_THT TO和SOT系列封装插件版，TO-220等
+- Package_TO_SOT_SMD TO和SOT系列封装贴片版，SOT-223-5等
+- Package_SO SO封装
+- Package_SON SON封装
+- Package_SIP SIP 封装
+- Package_QFP LQFP\EQFP 封装
+- Package_LGA LGA 封装
+- Package_LCC LCC 封装
+- Package_DIP DIP 封装
+- Package_DFN_QFN QFN 封装
+- Package_CSP CSP封装
+- Package_BGA BGA 封装
+- Oscillator 振荡器晶振
+- OptoDevice 光电子器件，光纤口等
+- NetTie 上下连接好的焊盘
+- Mounting_Wuerth 安装柱
+- MountingHole 安装孔
+- LED_THT 插件LED
+- LED_SMD 贴片LED
+- Jumper 跳线
+- Inductor_THT和Inductor_THT_Wurth 插件电感
+- Inductor_SMD和Inductor_SMD_Wurth 贴片电感
+- Heatsink 散热片
+- Fuse 保险丝座
+- Filter 滤波器
+- Fiducial 基准点，贴片时对焦用
+- Display_7Segment 数码管
+- Display 液晶屏
+- Diode_THT 插件二极管整流桥
+- Diode_SMD 贴片二极管整流桥
+- Crystal 晶振
+- Connector_Wire 焊锡线的焊盘，带固定孔
+- Connector_USB USB座
+- Connector_PinSocket_xxxx 排母
+- Connector_PinHeader_xxxx 排针
+- Connector_Phoenix_MSTB 5.08mm 绿色端子座
+- Connector_Molex MX1.25mm,MX2.0mm,MX1.5mm,MX2.54mm,MX3.96mm 等规格端子
+- Connector_JST JST和XH端子 XH2.54等
+  - ![JST](/img/post_img/JST.png)
+  - ![XH](/img/post_img/xh254.png)
+- Connector_IDC 牛角座
+- Connector_FFC-FPC FPC座
+- Connector_Coaxial 同轴光缆座，SMA\BNC等
+- Connector_Card 各种卡座，SD卡等
+- Connector_BarrelJack 各种电源座
+- Connector_Audio 各种音频接口
+- Connector_AMASS 电池座 XT60等
+- Capacitor_THT 插件电容
+- Capacitor_SMD 贴片电容
+- Capacitor_Tantalum_SMD 钽电容
+- Buzzer 蜂鸣器
+- Button_Switch_THT 插件按键开关
+- Button_Switch_SMD 贴片按键开关
+- Battery 电池座等
+- 

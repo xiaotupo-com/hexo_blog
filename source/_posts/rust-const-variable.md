@@ -4,6 +4,7 @@ date: 2024-02-21 19:52:37
 tags: [Rust]
 categories: 编程
 description:
+cover:
 ---
 
 Rust 中变量和常量的概念，变量分为可变变量和不可变变量，常量用 const 定义。

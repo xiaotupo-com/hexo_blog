@@ -1,0 +1,64 @@
+- class_name: 个人博客
+  class_desc: 收藏一些自己喜欢的博客网站。
+  link_list:
+    - name: 时习之
+      link: https://blog.guorongfei.com
+      avatar: https://blog.guorongfei.com/img/avatar.jpg
+      descr: 记录成长路上的点点滴滴
+
+- class_name: Github仓库
+  class_desc: 推荐一些 Github 仓库
+  link_list:
+    - name: Power-Boards
+      link: https://github.com/xiaotupo-com/Power-Boards
+      avatar: /img/GitHub_logo.png
+      descr: 这个 Github 仓库保含很多电源设计，包括PCB和原理图等，是开源的，可以拿来使用和参考。
+    - name: posh-git
+      link: https://github.com/dahlbyk/posh-git
+      avatar: /img/GitHub_logo.png
+      descr: A PowerShell environment for Git
+
+- class_name: 电子论坛/电子杂志
+  class_desc: 推荐一些自己喜欢的电子论坛和相关的网站。
+  link_list:
+    - name: Electronic Projects, Embedded News and Online Community - Electronics-Lab
+      link: https://www.electronics-lab.com/
+      avatar: https://www.electronics-lab.com/apple-touch-icon.png
+      descr: 电子项目，嵌入式新闻和在线社区-电子实验室
+    - name: FPGA论坛 SOC论坛 ARM论坛 RISCV论坛 IC论坛
+      link: https://chipdebug.com/
+      avatar: /img/chipdebug.png
+      descr: FPGA  SOC  IC 芯片调试开发分享社区
+    - name: FreeCAD 教學影片
+      link: https://www.youtube.com/playlist?list=PLdrYbn8q6soMfeaGRczvvLAdBYIruMCdZ
+      avatar: /img/freecad教学影片.jpg
+      descr: 南臺科技大學電子系「3D 建模及快速成型實務」課程錄影授課老師：李博明
+
+- class_name: 教程/文档
+  class_desc: 分享一些教程链接和相关技术文档的链接。
+  link_list:
+    - name: 科学文库
+      link: https://book.sciencereading.cn
+      avatar: /img/科学文库.png
+      descr: 科学文库是以高质量学术专著和教材为主要内容、以全学科知识服务为特色的数据库平台，收录众多获奖作品、各学科领域经典图书、知名专家著作、系列重点丛书等高质量专业知识内容，是优秀科学家的群体智慧宝库，曾获中国出版界最高奖——“中国出版政府奖”。
+
+
+- class_name: 在线工具/各种素材
+  class_desc: 分享一些在线工具，如转换文字到语音、单位换算等。
+  link_list:
+    - name: 在线免费文字转语音 - TTSMaker
+      link: https://ttsmaker.com/zh-cn
+      avatar: /img/ttsmaker.png
+      descr: TTSMaker是一个免费的文本转语音工具，也是一个在线文本阅读器，可以将文本转换成语音，它支持100多种语言和多种语音风格，强大的神经网络使语音听起来更加自然，您可以在线试听，或者按mp3、wav格式下载音频文件。
+    - name: Pexels - 免费素材图片
+      link: https://www.pexels.com/zh-cn/
+      avatar: /img/pexels.png
+      descr: 免费素材图片和视频，可以在任何地方使用。✓ 高质量 ✓ 100% 免费✓ 无需注明归属
+
+- class_name: 工业制造
+  class_desc: 分享一些和工业制造相关的网站。
+  link_list:
+    - name: 嘉立创FA
+      link: https://www.jlcfa.com
+      avatar: /img/jlcfa.png
+      descr: 隶属深圳嘉立创科技集团股份有限公司旗下品牌，致力于打造工厂自动化零部件一站式采购服务，产品涵盖机械常用零部件、直线运动零部件、传动零部件、紧固零件、电子电气产品、工控及电机驱动产品、气缸及气动配件产品等；可免费下载2D图纸，及3D模型，嘉立创机械零部件商城目标提升自动化设备供给效率，降低设备厂商综合采购成本，为机械设备行业带来推动和改变。嘉立创机械零部件商城拥有上万m²仓储及零部件加工基地，大企业背书，保障品质，现货库存，当天发货。是集机械零部件销售、CNC非标定制加工、3D打印（金属和塑胶）于一体的领先的设备标准件和非标件一站式服务厂商。

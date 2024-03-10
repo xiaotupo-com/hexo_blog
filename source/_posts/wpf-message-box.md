@@ -4,6 +4,7 @@ date: 2024-02-27 12:41:08
 tags: [WPF,C#]
 categories: 编程
 description:
+cover:
 ---
 
 这篇文章记录了 `WPF` 中的 `MessageBox` 的使用，给出了详细的代码例子。

@@ -4,6 +4,7 @@ date: 2024-02-22 22:55:09
 tags: [FreeRTOS]
 categories: 嵌入式
 description:
+cover:
 ---
 
 FreeRTOS 的任务有几种状态，并且这几种状态可以相互转换，下面是转换图：

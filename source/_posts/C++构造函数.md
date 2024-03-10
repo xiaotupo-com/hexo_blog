@@ -2,6 +2,7 @@
 title: C++ 中的构造函数
 tags: ['C++', 构造函数]
 categories: 编程
+cover:
 ---
 
 # 构造函数

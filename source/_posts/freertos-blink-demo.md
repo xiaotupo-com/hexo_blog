@@ -4,6 +4,7 @@ date: 2024-01-30 22:06:19
 tags: [FreeRTOS, AT32]
 categories: 嵌入式
 description:
+cover:
 ---
 
 这个例子演示了基于 FreeRTOS 的闪灯程序，这里给出主要代码块。

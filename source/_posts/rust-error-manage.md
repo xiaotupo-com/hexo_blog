@@ -4,6 +4,7 @@ date: 2024-02-22 12:41:08
 tags: [Rust]
 categories: 编程
 description:
+cover:
 ---
 
 ```rust

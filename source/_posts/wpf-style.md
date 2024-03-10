@@ -4,6 +4,7 @@ date: 2024-02-28 21:18:46
 tags: [WPF,Style]
 categories: 编程
 description:
+cover:
 ---
 
 WPF 中的 Style 和 html 中的 css 是类似的东西，都是定义UI样式，WPF 中的样式可以继承，下面就来了解下 WPF 中的样式使用方法。

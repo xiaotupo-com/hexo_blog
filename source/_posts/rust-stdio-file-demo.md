@@ -4,6 +4,7 @@ date: 2024-02-21 19:44:02
 tags: [Rust]
 categories: 编程
 description:
+cover:
 ---
 
 在这里分享一个我写的 `Rust` 例子，用到了输入输出和文件读取。

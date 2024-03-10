@@ -4,17 +4,17 @@
 
 # Site
 title: 小土坡
-subtitle: ""
-description: ""
-keywords:
-author: zsf
+subtitle: "一个电子爱好者的个人博客"
+description: "小土坡是一个关于电子技术和嵌入式的博客站点，会经常写一下学习笔记和分享一些其他内容。"
+keywords: 嵌入式开发,电路实验,RTOS系统,学习,WPF,开源,编程,模电数电,功放,运放,三极管,电感实验
+author: 小土坡
 language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://xiaotupo.com
-permalink: :year/:month/:day/:title/
+permalink: /article/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -90,7 +90,26 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: butterfly
+
+plugins:  
+  - hexo-algoliasearch
+
+
+algolia:
+  appId: 'PVU6UM7SK1'
+  apiKey: '9a480901726b5e9cbee142bc9b751a4f'
+  chunkSize: 5000
+  indexName: 'xiaotupo'
+  fields:
+    - content:strip:truncate,0,500  
+    - excerpt:strip  
+    - gallery  
+    - permalink  
+    - photos  
+    - slug  
+    - tags  
+    - title
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

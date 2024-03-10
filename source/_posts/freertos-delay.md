@@ -4,6 +4,7 @@ date: 2024-02-23 18:33:30
 tags: [FreeRTOS]
 categories: 嵌入式
 description:
+cover:
 ---
 
 ## vTaskDelay()
@@ -80,3 +81,23 @@ void vTaskDelayUntil( portTickType *pxPreviousWakeTime, portTickType xTimeIncrem
 ### 参数 pxPreviousWakeTime
 
 `pxPreviousWakeTime`：指针，指向一个变量，该变量保存任务最后一次解除阻塞的时间。第一次使用前，该变量必须初始化为当前时间。之后这个变量会在`vTaskDelayUntil()`函数内自动更新。
+
+例子：
+
+```c
+void test_task(void *pvParameters)
+{
+    int i = 0;
+    static portTickType xLastWakeTime;
+
+    xLastWakeTime = xTaskGetTickCount();
+
+    while(1)
+    {
+        printf("test_task()");
+        sys_led.toggle();
+        vTaskDelayUntil(&xLastWakeTime, 100);
+    }
+    vTaskDelete(NULL);
+}
+```

@@ -4,6 +4,7 @@ date: 2024-02-13 13:44:21
 tags: [C语言,字符串]
 categories: 编程
 description:
+cover:
 ---
 
 ## gets()
