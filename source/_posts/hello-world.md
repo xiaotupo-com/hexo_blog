@@ -38,3 +38,15 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+## hexo-algoliasearch 插件
+
+https://github.com/LouisBarranqueiro/hexo-algoliasearch
+
+```bash
+hexo algolia
+```
+
+## 搜索
+
+https://butterfly.js.org/posts/ceeb73f/#%E6%90%9C%E7%B4%A2
