@@ -33,6 +33,10 @@
       link: https://www.youtube.com/playlist?list=PLdrYbn8q6soMfeaGRczvvLAdBYIruMCdZ
       avatar: /img/freecad教学影片.jpg
       descr: 南臺科技大學電子系「3D 建模及快速成型實務」課程錄影授課老師：李博明
+    - name: HIFIDIY论坛
+      link: http://bbs.hifidiy.net/forum.php
+      avatar: http://bbs.hifidiy.net/template/eis_c_hifidiy/img/logo.gif
+      descr: 音响DIY hifidiy 论坛 MINI USB AMP 高保真硬盘播放器 因为我可以,所以我能,发挥您的想象力,展现您的创造力,经典将在我们的手中诞生!-HIFIDIY 
 
 - class_name: 教程/文档
   class_desc: 分享一些教程链接和相关技术文档的链接。

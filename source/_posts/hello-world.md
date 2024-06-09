@@ -49,4 +49,14 @@ hexo algolia
 
 ## 搜索
 
-https://butterfly.js.org/posts/ceeb73f/#%E6%90%9C%E7%B4%A2
+[https://butterfly.js.org/posts/ceeb73f/#%E6%90%9C%E7%B4%A2](https://butterfly.js.org/posts/ceeb73f/#%E6%90%9C%E7%B4%A2)
+
+```bash
+hexo algolia
+```
+
+## 新建文章
+
+```bash
+hexo new post -p front-end/nvm-node-manage "用 NVM 管理 npm 和 node 的版本"
+```
