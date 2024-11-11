@@ -3,7 +3,7 @@ title: Hello World
 tags: [Hexo, Blog]
 cover:
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+该文件是 `hexo` 中默认生成第一篇文章，在此我进行了升级，用该文章记录一些 `hexo` 使用的笔记。
 
 ## Quick Start
 
@@ -39,20 +39,32 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
-## hexo-algoliasearch 插件
-
-https://github.com/LouisBarranqueiro/hexo-algoliasearch
-
-```bash
-hexo algolia
-```
-
-## 搜索
+## 关于搜索
 
 [https://butterfly.js.org/posts/ceeb73f/#%E6%90%9C%E7%B4%A2](https://butterfly.js.org/posts/ceeb73f/#%E6%90%9C%E7%B4%A2)
 
-```bash
-hexo algolia
+我用的`hexo`主题是 `buterfly` 该主题支持几种搜索，这里我选用了最简单的 `local_search` 具体的配置是：
+
+1. 安装 [`hexo-generator-searchdb`](https://github.com/next-theme/hexo-generator-searchdb "hexo-generator-searchdb")
+
+2. 配置主题的 search use 为: `local_search' 代码如下：
+
+```yml
+   search:
+  # Choose: algolia_search / local_search / docsearch
+  # leave it empty if you don't need search
+  use: local_search
+  placeholder: 搜索
+
+  # Local Search
+  local_search:
+    # Preload the search data when the page loads.
+    preload: false
+    # Show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+    # Unescape html strings to the readable one.
+    unescape: false
+    CDN:
 ```
 
 ## 新建文章

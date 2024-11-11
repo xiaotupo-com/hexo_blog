@@ -51,7 +51,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/pexels-zeynep-altun-20001214.jpg
+index_img: /img/pexels-pixabay-33044.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -388,34 +388,21 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# search (搜索)
-# see https://butterfly.js.org/posts/ceeb73f/#搜索系統
-# --------------------------------------
+search:
+  # Choose: algolia_search / local_search / docsearch
+  # leave it empty if you don't need search
+  use: local_search
+  placeholder: 搜索
 
-# Algolia search
-algolia_search:
-  enable: true
-  hits:
-    per_page: 6
-
-# Local search
-local_search:
-  enable: false
-  # Preload the search data when the page loads.
-  preload: false
-  # Show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
-  # Unescape html strings to the readable one.
-  unescape: false
-  CDN:
-
-# Docsearch
-docsearch:
-  enable: false
-  appId: 
-  apiKey: 
-  indexName: 
-  option:
+  # Local Search
+  local_search:
+    # Preload the search data when the page loads.
+    preload: false
+    # Show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+    # Unescape html strings to the readable one.
+    unescape: false
+    CDN:
 
 # Share System (分享)
 # --------------------------------------

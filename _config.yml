@@ -92,24 +92,11 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-plugins:  
-  - hexo-algoliasearch
-
-
-algolia:
-  appId: 'PVU6UM7SK1'
-  apiKey: '9a480901726b5e9cbee142bc9b751a4f'
-  chunkSize: 5000
-  indexName: 'xiaotupo'
-  fields:
-    - content:strip:truncate,0,500  
-    - excerpt:strip  
-    - gallery  
-    - permalink  
-    - photos  
-    - slug  
-    - tags  
-    - title
+local_search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
