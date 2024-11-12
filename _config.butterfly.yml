@@ -51,7 +51,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/pexels-pixabay-33044.jpg
+index_img: /img/2411-3.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -79,7 +79,7 @@ category_per_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
-  index_enable: true
+  index_enable: false
   aside_enable: true
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
@@ -120,6 +120,25 @@ cover:
     - /img/23.jpg
     - /img/24.jpg
     - /img/25.jpg
+    - /img/2411-1.jpg
+    - /img/2411-2.jpg
+    - /img/2411-3.jpg
+    - /img/2411-4.jpg
+    - /img/2411-5.jpg
+    - /img/2411-6.jpg
+    - /img/2411-7.jpg
+    - /img/2411-8.jpg
+    - /img/2411-9.jpg
+    - /img/2411-10.jpg
+    - /img/2411-11.jpg
+    - /img/2411-12.jpg
+    - /img/2411-13.jpg
+    - /img/2411-14.jpg
+    - /img/2411-15.jpg
+    - /img/2411-16.jpg
+    - /img/2411-17.jpg
+    - /img/2411-18.jpg
+    - /img/2411-19.jpg
 
 
 
@@ -649,7 +668,7 @@ site_verification:
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height:
+index_top_img_height: 300px
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -666,7 +685,7 @@ text_align_justify: false
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -739,7 +758,7 @@ clickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
