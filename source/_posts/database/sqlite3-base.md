@@ -97,3 +97,24 @@ sqlite> SELECT model, price FROM phone ;
 ```
 
 ### 3. 条件查询
+
+## SQLite 支持的字段类型
+
+- `NULL` 值为 `NULL`
+- `INTEGER` 值为带符号的整型
+- `REAL` 浮点型，8字节长度
+- `TEXT` 字符串
+- `BLOB` 二进制数据
+
+一些 `sqlite3` 支持的其他类型：
+
+- `smallint` 16位整数
+- `interger` 32位整数
+- `decimal(p,s)` `p` 指全部长度，`s` 小数点后的位数
+- `float` 32位
+- `double` 64位
+- `char(n)` 固定长度的字符串
+- `varchar(n)` 长度可变的字符串 
+- `date` 日期类型
+- `time` 时间类型
+- `timestamp`
