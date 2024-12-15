@@ -17,7 +17,10 @@ permalink:
 ```clang-format
 BasedOnStyle: LLVM # LLVM, Google
 IndentWidth: 4
+ColumnLimit: 81
 BreakBeforeBraces: Linux
+AllowShortLoopsOnASingleLine:   true
+AllowShortBlocksOnASingleLine:  true
 ```
 
 - BreakBeforeBraces: Linux
