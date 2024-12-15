@@ -17,6 +17,10 @@
       link: https://github.com/dahlbyk/posh-git
       avatar: /img/GitHub_logo.png
       descr: A PowerShell environment for Git
+    - name: The Algorithms
+      link: https://github.com/TheAlgorithms
+      avatar: https://avatars.githubusercontent.com/u/20487725?s=200&v=4
+      descr: 这是一个算法仓库
 
 - class_name: 开源库
   class_desc: 在此分享一些开源的程序库。
