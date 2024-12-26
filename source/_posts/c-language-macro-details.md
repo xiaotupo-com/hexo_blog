@@ -123,6 +123,35 @@ int main(void)
 
 `#@` 只能在 MicroSoft MSVC 中使用，GNU GCC 是不支持的。
 
+## 设置或清除某一位
+
+```c
+#include <stdio.h>
+#define SET_BIT(num, n) ((num) | (1 << (n)))
+#define CLEAR_BIT(num, n) ((num) & ~(1<<(n)))
+
+int main(void)
+{
+    unsigned int a = 0;
+
+    a = SET_BIT(a, 0);
+    a = SET_BIT(a, 1);
+    a = SET_BIT(a, 2);
+    
+    printf("a: %b\n", a);
+
+    a = CLEAR_BIT(a, 1);
+    printf("a: %b\n", a);
+}
+```
+
+输出：
+
+```bash
+a: 111
+a: 101
+```
+
 ## C 语言宏参考
 
 - https://www.cnblogs.com/skyzu2333/p/14888938.html
