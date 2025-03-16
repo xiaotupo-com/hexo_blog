@@ -1,0 +1,22 @@
+services:
+  hexo:
+    build: . # 指定使用当前目录下的 Dockerfile 构建镜像
+    container_name: hexo-blog
+    image: sf/hexo-blog:latest
+    user: "${UID}:${GID}" # 自动匹配宿主机的 UID/GID
+    env_file:
+      - .env # 显式加载 .env 文件
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./:/app # 挂载宿主机的当前目录到容器的 /app 目录
+      - /home/zsf/.gitconfig:/home/node/.gitconfig
+      - /home/zsf/.ssh/known_hosts:/home/node/.ssh/known_hosts
+      - /home/zsf/.ssh:/home/node/.ssh
+    restart: always # 总是
+    environment:
+      - GIT_USER=小土坡
+      - GIT_EMAIL="xiaotupo@163.com"
+      - GIT_DEFAULT_BRANCH=main
+      - HTTP_PROXY="http://192.168.0.102:7897"
+      - HTTPS_PROXY="http://192.168.0.102:7897"
