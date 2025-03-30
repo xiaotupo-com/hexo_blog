@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 小土坡
-subtitle: "一个电子爱好者的个人博客"
-description: "小土坡是一个关于电子技术和嵌入式的博客站点，会经常写一下学习笔记和分享一些其他内容。"
-keywords: 嵌入式开发,电路实验,RTOS系统,学习,WPF,开源,编程,模电数电,功放,运放,三极管,电感实验
+title: 小土坡的博客
+subtitle: "一个后来做软件开发的个人博客"
+description: "小土坡的博客是一个与软件设计的博客站点，会经常写一下学习笔记和分享一些其他内容。"
+keywords: 程序设计,软件开发,前端,react,mui,多平台应用开发,电路实验,学习,开源,编程
 author: 小土坡
 language: zh-CN
 timezone: "Asia/Shanghai"
