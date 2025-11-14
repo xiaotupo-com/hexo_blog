@@ -48,7 +48,7 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
 index_img: /img/2411-3.jpg
@@ -81,7 +81,7 @@ cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: false
   aside_enable: true
-  archives_enable: true
+  archives_enable: false
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
   position: both
@@ -682,10 +682,10 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: /img/1.jpg
 
 # Footer Background
-footer_bg: true
+footer_bg: /img/2.jpg
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -712,7 +712,7 @@ activate_power_mode:
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
